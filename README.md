@@ -1,10 +1,8 @@
 # 🚀 Projeto Selenium – Testes Automatizados
 
-[![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)](https://www.python.org/)
-[![Selenium](https://img.shields.io/badge/Selenium-4.31-green?logo=selenium)](https://www.selenium.dev/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
----
+![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python) 
+![Selenium](https://img.shields.io/badge/Selenium-4.31-green?logo=selenium) 
+![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 ## 📋 Sobre
 
@@ -15,5 +13,9 @@ Este projeto contém automações de testes utilizando **Selenium WebDriver** e 
 
 ---
 
-## 📂 Estrutura
+## 📁 Estrutura
+
+
+
+
 
