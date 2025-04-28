@@ -12,8 +12,8 @@ Validar que um usuário com credenciais corretas consegue realizar o login com s
 4. Clicar no botão de login.
 
 ### Dados de entrada:
-- Usuário: dmin
-- Senha: dmin123
+- Usuário: Admin
+- Senha: Admin123
 
 ### Resultado Esperado:
 - O sistema deve redirecionar o usuário para a página principal após login bem-sucedido.
