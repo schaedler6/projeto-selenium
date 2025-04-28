@@ -25,7 +25,7 @@ jobs:
         pip install selenium
         pip install webdriver-manager
 
-    - name: Executar todos os testes Selenium
+    - name: Executar testes Selenium
       run: |
         python scripts/tc_saucedemo.py
         python scripts/tc_demoblaze.py
