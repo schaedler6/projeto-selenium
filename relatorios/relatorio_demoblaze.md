@@ -1,23 +1,28 @@
 # Relatório de Teste
 
-## Caso de Teste: [Inserir TC-XXX]
-## Objetivo:
-[Descrever o objetivo do teste.]
+## Caso de teste: TC-003 - Login Bem-Sucedido Demoblaze
 
-## Passos Executados:
-1. [Listar os passos executados.]
+### Objetivo:
+Validar que um usuário com credenciais corretas consegue realizar o login com sucesso no site [demoblaze.com](https://www.demoblaze.com/).
 
-## Dados de Entrada:
-- [Listar dados de entrada.]
+### Passos Executados:
+1. Acessar o site [https://www.demoblaze.com/](https://www.demoblaze.com/).
+2. Preencher o campo de usuário com dmin.
+3. Preencher o campo de senha com dmin123.
+4. Clicar no botão de login.
 
-## Resultado Esperado:
-[Descrever o comportamento esperado.]
+### Dados de entrada:
+- Usuário: dmin
+- Senha: dmin123
 
-## Resultado Obtido:
-[Descrever o que foi obtido na execução.]
+### Resultado Esperado:
+- O sistema deve redirecionar o usuário para a página principal após login bem-sucedido.
 
-## Status:
-[Passou/Falhou]
+### Resultado Obtido:
+- O usuário foi corretamente redirecionado para a página principal.
 
-## Observações:
-- [Anexar prints de tela se necessário.]
+### Status:
+✅ Passou
+
+### Observações:
+Nenhuma.

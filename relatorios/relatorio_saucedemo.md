@@ -29,8 +29,6 @@ Nenhuma.
 
 ---
 
-# Relatório de Teste
-
 ## Caso de teste: TC-002 - Login Mal-Sucedido
 
 ### Objetivo:

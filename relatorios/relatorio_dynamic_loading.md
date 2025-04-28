@@ -1,23 +1,27 @@
 # Relatório de Teste
 
-## Caso de Teste: [Inserir TC-XXX]
-## Objetivo:
-[Descrever o objetivo do teste.]
+## Caso de teste: TC-004 - Teste de Carregamento Dinâmico
 
-## Passos Executados:
-1. [Listar os passos executados.]
+### Objetivo:
+Validar que o sistema exibe corretamente os elementos após o carregamento dinâmico na página de testes [Dynamic Loading](https://the-internet.herokuapp.com/dynamic_loading).
 
-## Dados de Entrada:
-- [Listar dados de entrada.]
+### Passos Executados:
+1. Acessar o site [https://the-internet.herokuapp.com/dynamic_loading](https://the-internet.herokuapp.com/dynamic_loading).
+2. Clicar no link "Example 2".
+3. Aguardar o carregamento dinâmico da página.
+4. Verificar se o botão foi exibido corretamente.
 
-## Resultado Esperado:
-[Descrever o comportamento esperado.]
+### Dados de entrada:
+- Nenhum dado de entrada, apenas o carregamento da página.
 
-## Resultado Obtido:
-[Descrever o que foi obtido na execução.]
+### Resultado Esperado:
+- O botão "Example" deve ser exibido após o carregamento.
 
-## Status:
-[Passou/Falhou]
+### Resultado Obtido:
+- O botão "Example" foi exibido corretamente após o carregamento dinâmico.
 
-## Observações:
-- [Anexar prints de tela se necessário.]
+### Status:
+✅ Passou
+
+### Observações:
+Nenhuma.

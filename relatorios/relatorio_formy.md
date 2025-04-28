@@ -1,23 +1,30 @@
 # Relatório de Teste
 
-## Caso de Teste: [Inserir TC-XXX]
-## Objetivo:
-[Descrever o objetivo do teste.]
+## Caso de teste: TC-005 - Teste de Formulário
 
-## Passos Executados:
-1. [Listar os passos executados.]
+### Objetivo:
+Validar que o formulário de entrada de dados funciona corretamente na página de testes [Formy](https://formy-project.herokuapp.com/form).
 
-## Dados de Entrada:
-- [Listar dados de entrada.]
+### Passos Executados:
+1. Acessar o site [https://formy-project.herokuapp.com/form](https://formy-project.herokuapp.com/form).
+2. Preencher o nome com John Doe.
+3. Preencher o e-mail com john.doe@example.com.
+4. Preencher a descrição com Teste de formulário.
+5. Submeter o formulário.
 
-## Resultado Esperado:
-[Descrever o comportamento esperado.]
+### Dados de entrada:
+- Nome: John Doe
+- E-mail: john.doe@example.com
+- Descrição: Teste de formulário
 
-## Resultado Obtido:
-[Descrever o que foi obtido na execução.]
+### Resultado Esperado:
+- O formulário deve ser submetido com sucesso e exibir uma mensagem de confirmação.
 
-## Status:
-[Passou/Falhou]
+### Resultado Obtido:
+- A mensagem de confirmação foi exibida corretamente.
 
-## Observações:
-- [Anexar prints de tela se necessário.]
+### Status:
+✅ Passou
+
+### Observações:
+Nenhuma.
