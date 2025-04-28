@@ -1,37 +1,59 @@
 # Relatório de Teste
 
-## Caso de Teste: TC-001 - Login bem-sucedido / TC-002 - Login mal-sucedido
+## Caso de teste: TC-001 - Login Bem-Sucedido
 
-## Objetivo:
-- TC-001: Validar login com usuário válido (standard_user/secret_sauce) no site https://www.saucedemo.com/
-- TC-002: Validar mensagem de erro ao tentar login com usuário inválido (invalid_user/wrong_password).
+### Objetivo:
+Validar que um usuário com credenciais corretas consegue realizar o login com sucesso no site [saucedemo.com](https://www.saucedemo.com/).
 
-## Passos Executados:
-1. Acessar o site https://www.saucedemo.com/
-2. Inserir credenciais corretas e realizar login (TC-001).
-3. Verificar presença da lista de produtos.
-4. Acessar novamente o site, inserir credenciais inválidas e tentar login (TC-002).
-5. Verificar presença da mensagem de erro.
+### Passos Executados:
+1. Acessar o site [https://www.saucedemo.com/](https://www.saucedemo.com/).
+2. Preencher o campo de usuário com standard_user.
+3. Preencher o campo de senha com secret_sauce.
+4. Clicar no botão de login.
 
-## Dados de Entrada:
-- Usuário válido: standard_user
-- Senha válida: secret_sauce
-- Usuário inválido: invalid_user
-- Senha inválida: wrong_password
+### Dados de entrada:
+- Usuário: standard_user
+- Senha: secret_sauce
 
-## Resultado Esperado:
-- TC-001: Acesso à página de produtos após login válido.
-- TC-002: Exibição da mensagem de erro informando falha no login.
+### Resultado Esperado:
+- O sistema deve redirecionar o usuário para a página de produtos.
 
-## Resultado Obtido:
-- TC-001: Página de produtos carregada com sucesso.
-- TC-002: Mensagem de erro exibida corretamente.
+### Resultado Obtido:
+- O usuário foi corretamente redirecionado para a página de produtos.
 
-## Status:
-- TC-001: ✅ Passou
-- TC-002: ✅ Passou
+### Status:
+✅ Passou
 
-## Observações:
-- Testes executados em: 27/04/2025
-- Nenhum erro inesperado ocorreu.
-- Screenshots seriam capturados apenas em caso de falhas (não necessários aqui).
+### Observações:
+Nenhuma.
+
+---
+
+# Relatório de Teste
+
+## Caso de teste: TC-002 - Login Mal-Sucedido
+
+### Objetivo:
+Validar que o sistema exibe uma mensagem de erro adequada quando o usuário tenta realizar login com credenciais inválidas.
+
+### Passos Executados:
+1. Acessar o site [https://www.saucedemo.com/](https://www.saucedemo.com/).
+2. Preencher o campo de usuário com invalid_user.
+3. Preencher o campo de senha com invalid_password.
+4. Clicar no botão de login.
+
+### Dados de entrada:
+- Usuário: invalid_user
+- Senha: invalid_password
+
+### Resultado Esperado:
+- O sistema deve exibir uma mensagem de erro informando sobre falha no login.
+
+### Resultado Obtido:
+- A mensagem de erro foi exibida corretamente na tela.
+
+### Status:
+✅ Passou
+
+### Observações:
+Nenhuma.
