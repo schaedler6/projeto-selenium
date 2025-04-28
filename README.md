@@ -8,7 +8,7 @@
 
 Este projeto contém automações de testes utilizando **Selenium WebDriver** e **Python**, focados em:
 
-- Validação de login bem-sucedido e mal-sucedido no site [saucedemo.com](https://www.saucedemo.com/)
+- Validação de login bem-sucedido e mal-sucedido no site  [saucedemo.com](https://www.saucedemo.com/)
 - Estrutura organizada com scripts e relatórios de testes
 
 ---
