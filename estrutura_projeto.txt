@@ -1,0 +1,20 @@
+Listagem de caminhos de pasta para o volume Schaedler 
+O número de série do volume é 96A5-E6DF
+J:.
+¦   estrutura_projeto.txt
+¦   LICENSE
+¦   README.md
+¦   
++---drivers
++---relatorios
+¦       relatorio_demoblaze.md
+¦       relatorio_dynamic_loading.md
+¦       relatorio_formy.md
+¦       relatorio_saucedemo.md
+¦       
++---scripts
+        tc_demoblaze.py
+        tc_dynamic_loading.py
+        tc_formy.py
+        tc_saucedemo.py
+        
